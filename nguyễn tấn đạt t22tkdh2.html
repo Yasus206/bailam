@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu dịch vụ du lịch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #FF6347, #FF4500);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .main-content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main-content h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #FF6347;
+        }
+
+        .tour {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+        .tour:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .tour h3 {
+            color: #FF4500;
+            margin-bottom: 10px;
+        }
+
+        .tour p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .tour a {
+            color: white;
+            background-color: #FF6347;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .tour a:hover {
+            background-color: #FF4500;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        a {
+            color: #FF6347;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .tour {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chào mừng đến với dịch vụ du lịch</h1>
+        <img src=".//baner/baner-giam-gia-tour-du-lich_113653707.png" alt="Banner du lịch">
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Các tour du lịch ưu đãi</h2>
+        <div class="tour">
+            <h3>Tour du lịch Đà Nẵng</h3>
+            <p>Khám phá thành phố biển xinh đẹp với giá ưu đãi chỉ 2,000,000 VND.</p>
+            <a href="#">Xem chi tiết</a>
+        </div>
+        <div class="tour">
+            <h3>Tour du lịch Hà Nội</h3>
+            <p>Thủ đô ngàn năm văn hiến với giá chỉ 1,500,000 VND.</p>
+            <a href="#">Xem chi tiết</a>
+        </div>
+        <div class="tour">
+            <h3>Tour du lịch Phú Quốc</h3>
+            <p>Thiên đường nghỉ dưỡng với giá chỉ 3,000,000 VND.</p>
+            <a href="#">Xem chi tiết</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Liên hệ chúng tôi: 0123 456 789 | Email: contact@dulich.com</p>
+        <p>&copy; 2024 Công ty du lịch</p>
+    </footer>
+</body>
+</html>
